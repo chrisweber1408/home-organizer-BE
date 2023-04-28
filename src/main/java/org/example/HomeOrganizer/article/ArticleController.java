@@ -11,7 +11,7 @@ public class ArticleController {
     private final ArticleService articleService;
 
     @PostMapping("/add/{nameOfArticle}")
-    public void addAArticle(@PathVariable String nameOfArticle){
-        articleService.addAArticle(nameOfArticle);
+    public void addAnArticle(@PathVariable String nameOfArticle){
+        articleService.addAnArticle(nameOfArticle);
     }
 }

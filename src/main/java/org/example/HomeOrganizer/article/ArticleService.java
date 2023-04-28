@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class ArticleService {
 
     private final ArticleRepo articleRepo;
-    public void addAArticle(String nameOfArticle) {
+    public void addAnArticle(String nameOfArticle) {
         Article newArticle = new Article(nameOfArticle);
         articleRepo.save(newArticle);
     }
