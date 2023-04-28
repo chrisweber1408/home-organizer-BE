@@ -14,4 +14,5 @@ public class ArticleController {
     public void addAnArticle(@PathVariable String nameOfArticle){
         articleService.addAnArticle(nameOfArticle);
     }
+
 }

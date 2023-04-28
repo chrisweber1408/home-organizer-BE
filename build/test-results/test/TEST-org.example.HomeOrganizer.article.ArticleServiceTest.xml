@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.HomeOrganizer.article.ArticleServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-28T16:17:31" hostname="DESKTOP-B0VDIDN" time="0.226">
+  <properties/>
+  <testcase name="shouldNotAddAnArticleBecauseNoName()" classname="org.example.HomeOrganizer.article.ArticleServiceTest" time="0.226"/>
+  <system-out><![CDATA[18:17:28.757 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [ArticleServiceTest]: using SpringBootContextLoader
+18:17:28.762 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [org.example.HomeOrganizer.article.ArticleServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:17:28.763 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.HomeOrganizer.article.ArticleServiceTest]: ArticleServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:17:28.778 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [ArticleServiceTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+18:17:28.837 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [C:\Users\chris\IdeaProjects\Home-Organizer\build\classes\java\main\org\example\HomeOrganizer\HomeOrganizerApp.class]
+18:17:28.839 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.HomeOrganizer.HomeOrganizerApp for test class org.example.HomeOrganizer.article.ArticleServiceTest
+18:17:28.924 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [ArticleServiceTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+18:17:28.925 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [ArticleServiceTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2023-04-28T18:17:29.123+02:00  INFO 7756 --- [    Test worker] o.e.H.article.ArticleServiceTest         : Starting ArticleServiceTest using Java 17.0.6 with PID 7756 (started by chris in C:\Users\chris\IdeaProjects\Home-Organizer)
+2023-04-28T18:17:29.125+02:00  INFO 7756 --- [    Test worker] o.e.H.article.ArticleServiceTest         : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T18:17:29.524+02:00  INFO 7756 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28T18:17:29.567+02:00  INFO 7756 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-04-28T18:17:29.845+02:00  INFO 7756 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28T18:17:29.887+02:00  INFO 7756 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-28T18:17:30.088+02:00  INFO 7756 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28T18:17:30.202+02:00  INFO 7756 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1999149e
+2023-04-28T18:17:30.203+02:00  INFO 7756 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28T18:17:30.229+02:00  INFO 7756 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-28T18:17:30.782+02:00  INFO 7756 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28T18:17:30.788+02:00  INFO 7756 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28T18:17:31.081+02:00  WARN 7756 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28T18:17:31.336+02:00  INFO 7756 --- [    Test worker] o.e.H.article.ArticleServiceTest         : Started ArticleServiceTest in 2.376 seconds (process running for 3.255)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
