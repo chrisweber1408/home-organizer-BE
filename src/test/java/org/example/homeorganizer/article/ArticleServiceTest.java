@@ -1,8 +1,6 @@
-package org.example.HomeOrganizer.article;
+package org.example.homeorganizer.article;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
