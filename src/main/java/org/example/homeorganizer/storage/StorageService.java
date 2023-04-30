@@ -13,4 +13,8 @@ public class StorageService {
         Storage storage = new Storage(storageName);
         storageRepo.save(storage);
     }
+
+    public Storage getAStorage(String id) {
+        return storageRepo.findById(id).orElseThrow();
+    }
 }
