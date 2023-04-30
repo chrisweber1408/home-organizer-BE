@@ -1,4 +1,4 @@
-package org.example.HomeOrganizer.article;
+package org.example.homeorganizer.article;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

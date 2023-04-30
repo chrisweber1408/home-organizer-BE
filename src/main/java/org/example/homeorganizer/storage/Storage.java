@@ -1,19 +1,24 @@
-package org.example.HomeOrganizer.article;
+package org.example.homeorganizer.storage;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import org.example.homeorganizer.article.Article;
 
+import java.util.List;
 import java.util.UUID;
 
 @Entity
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor
-public class Article {
+public class Storage {
+
     @Id
     private final String id = UUID.randomUUID().toString();
-    private String name;
+    private final String name;
+    private List<Article> articleList;
+
+
 }
