@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.homeorganizer.storage.StorageServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-01T10:28:52" hostname="DESKTOP-B0VDIDN" time="0.034">
+  <properties/>
+  <testcase name="shouldAddAnArticleIntoAStorage()" classname="org.example.homeorganizer.storage.StorageServiceTest" time="0.025"/>
+  <testcase name="shouldGetAStorage()" classname="org.example.homeorganizer.storage.StorageServiceTest" time="0.003"/>
+  <testcase name="shouldGetAllStorages()" classname="org.example.homeorganizer.storage.StorageServiceTest" time="0.003"/>
+  <testcase name="shouldAddAStorage()" classname="org.example.homeorganizer.storage.StorageServiceTest" time="0.003"/>
+  <system-out><![CDATA[2023-05-01T12:28:52.119+02:00  INFO 16876 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.example.homeorganizer.storage.StorageServiceTest]: StorageServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-01T12:28:52.125+02:00  INFO 16876 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.example.homeorganizer.HomeOrganizerApp for test class org.example.homeorganizer.storage.StorageServiceTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
