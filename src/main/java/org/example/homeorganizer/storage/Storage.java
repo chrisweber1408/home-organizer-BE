@@ -34,4 +34,5 @@ public class Storage {
         this.articleList.add(article);
     }
 
+
 }
